@@ -3,8 +3,9 @@
 def parrot
   puts "Squawk!"
   "Squawk!"
-def parrot("Pretty bird!")
+def parrot(bird)
   puts "Pretty bird!"
   "Pretty Bird!"
 end
  parrot
+ parrot(bird)
